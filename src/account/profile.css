@@ -1,0 +1,74 @@
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.288);
+    background:cover;
+  }
+  
+  .profile {
+    margin-top: 2em;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .redBackground {
+    background-color: rgb(195, 13, 43);
+    color: white;
+  }
+  
+  .header {
+    margin-bottom: 10px;
+  }
+  
+  .confirm {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    margin-bottom: 5px;
+  }
+  /* Add the following CSS to your customerform.css or a separate CSS file */
+
+.add {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .add a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add a:hover {
+    background-color: #0056b3;
+  }
+  
+  .add a.add_newcustomer {
+    background-color: #28a745;
+  }
+  
+  .add a.add_newcustomer:hover {
+    background-color: #218838;
+  }
+  
+  .add a.view_customers {
+    background-color: #17a2b8;
+  }
+  
+  .add a.view_customers:hover {
+    background-color: #138496;
+  }
+  

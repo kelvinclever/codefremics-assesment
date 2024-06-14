@@ -1,0 +1,109 @@
+/* Style for form */
+.hero{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.hero h2{
+    background-color: black;
+    color: white;
+}
+form {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background-color: rgb(195, 13, 43);
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    height: 25rem;
+    overflow-y: scroll;
+  }
+  
+  /* Style for form inputs and labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Style for error and success messages */
+  .error-message {
+    color: red;
+  }
+  
+  /* .success-message {
+    color: white;
+    background-color: green;
+    padding-inline: 15px;
+    padding-block: 2em;
+    z-index: 2;
+    border-radius: 30px;
+
+ text-align: center;
+
+    height: 10em;
+  } */
+  /* customerform.css */
+  
+  button:disabled {
+    background-color: #cccccc;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+     animation: fadeOut 5s forwards;
+  }
+  
+  .success-message {
+    color: green;
+    padding: 2em;
+    color: white;
+    background-color: green;
+    padding-inline: 15px;
+    padding-block: 2em;
+    margin-bottom: 10px;
+    animation: fadeOut 30s forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

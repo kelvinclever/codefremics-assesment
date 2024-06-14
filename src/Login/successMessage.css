@@ -1,0 +1,47 @@
+/* SuccessMessage.css */
+
+.SuccessMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .SuccessMessage span:last-child {
+    font-size: 16px; /* Adjust the font size as needed for the message */
+    margin-bottom: 10px;
+    color: white;
+    display: block;
+height: 2rem;
+height: 100%;
+    text-transform: capitalize;
+    transform: translateY(4px);
+    font-weight: 400;
+    margin-right: 40px;
+  }
+  .SuccessMessage{
+    background-color:rgb(1, 79, 1);
+    padding-block: auto;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: .4em;
+    /* justify-content: space-around; */
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .SuccessMessage span:first-child {
+    font-size: 40px;
+    color: black; 
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    transform: translateY(0em);
+  z-index: 3;
+    bottom: 0;
+   
+  }
+  
